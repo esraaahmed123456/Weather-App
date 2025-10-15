@@ -1,0 +1,98 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.card{
+    width: 90%;
+    max-width: 465px;
+    margin:  100px auto  0;
+    /* display: flex; */
+    align-items: center;
+    border-radius: 20px;
+    background:linear-gradient(rgb(87, 80, 80),rgb(21, 125, 129),rgb(21, 21, 21));
+    padding:40px ;
+     text-align: center;
+      color: #fbf3f3;
+
+}
+.serach{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    
+}
+ .serach input{
+    border: 0;
+    outline: 0;
+    border-radius: 40px;
+   height: 50px;
+   width: 300px;
+   background-color: #ebfffc;
+   color: #555;
+   margin-right: 16px;
+   font-size: 18px;
+    flex: 1;
+    padding: 10px 25px;
+  
+}
+.serach button{
+     border: 0;
+    outline: 0;
+    border-radius: 50%;
+     height: 60px;
+     width: 60px;
+     background-color: #ebfffc;
+   color: #555;
+   cursor: pointer;
+}
+button img{
+    width: 16px;
+}
+
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+.weather-icon{
+    margin-top: 30px;
+    width: 170px;
+}
+.weather h1{
+    font-size: 70px;
+    font-weight: 500;
+}.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -25px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    margin-right: 20px;
+    width: 40px;
+}
+.wind , .humidity{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
